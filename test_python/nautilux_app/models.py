@@ -74,7 +74,7 @@ class Equipment(models.Model):
         help_text=(
             "francais : catégories"),
         )
-    quantity = models.IntegerField(
+    quantity = models.PositiveIntegerField(
         default=0,
         null=True,
         unique=False,
